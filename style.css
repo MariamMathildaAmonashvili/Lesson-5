@@ -1,25 +1,21 @@
-
-/*reset styles*/
-*{
+*  {border: none;
+	text-decoration: none;
 	margin: 0;
-	padding: 0;
-	box-sizing: border-box;
-	font-size: 100%; 
-    list-style: none;
-    text-decoration: none;}
 
 
-
+}
 p {
 	color: black;
 	font-size: 16px;
 	box-sizing: border-box;
 }
 
-header { background-color: #0020F4; 
-	display: inlinexs;
+header { background-color: blue; 
 width: 100%;
-height: 250px;}
+height: 250px;
+display: block;
+margin-left: auto;
+margin-right: 60px;}
 
 
 header button { color: black;
@@ -33,33 +29,39 @@ header button { color: black;
     padding: 18px 36px  ;
 }
 
+ul { list-style: none; 
+	text-decoration: none;
+	text-align: center;
+	padding: -10px;
+	margin-right: -100px;
+	margin-top:  -90px;
+}
+
 li { display: inline;
 box-sizing: border-box; 
-padding: 20px;
-margin-right: 40px;
-text-align:  left;
-font-style: normal;
+text-align:  center;
+padding: 30px;
+font-family: Helvetica Neues;
 font-size:16px;
 font-weight: 500;
-vertical-align: middle;\
-font-family: Helvetica Neue;
+
 
 }
 
-nav {
+.navbar {
+
 	margin-left: 900px;
-	margin-top: -50px;
+	margin-top: -70px;
     margin: 0;
     border: 0;
     box-sizing: border-box;
-    vertical-align: middle;
-    display: inline;
 }
-nav a { color: white;
-text-decoration: none; 
-align-content: middle;
-display: inline;}
+nav a { display: inline;
+	text-align: middle;
 
+	color: white;
+text-decoration: none;
+ }
 
 .contact { color: black;
 
@@ -67,7 +69,8 @@ display: inline;}
 
 img { width:150px;
 border-radius: 15px; 
-margin-right: 17px;}
+margin-right: 17px;
+padding: 20px;}
 
 h3 {
 font-size: 24px;
@@ -86,14 +89,13 @@ margin-bottom: 30px;
 section button { color: white;
 	background-color: #0A22F4;
 	text-decoration: none;
-    border-radius: 30px;
-    padding: 25px;
-    text-align: center;
-     font-style: normal;
-    font-size: 17px; 
-    margin-left: 400px;
-    margin-top: 35px;
-font-family: Helvetica Neue;}
+border-radius: 30px;
+padding: 25px;
+text-align: center;
+font-style: normal;
+font-size: 17px; 
+margin-left: 400px;
+margin-top: 35px;}
 
 .button { 
 color: white;
@@ -101,32 +103,71 @@ text-decoration: none;
 font-weight: 400;}
 
 
+.button { display: block;
+	text-align: middle;
+	width: 350px;
+	margin: auto;
+color: white;
+text-decoration: none; 
+font-weight: 400;}
+
+
 footer {
 	background-color: #0020F4;
-	color: blue;
-	background: blue;
+
+
 }
-.contact {
+.contacts {
 	font-family: Helvetica Neues;
+	color: white;
+	font-weight: 100;
+	padding: 25px;
 
 }
 
 .lorem {
-	font-size: 16px;
+	font-size: 13px;
+	color: white;
+	font-weight: 100;
+	padding: 20px;
+	width: 600px ;
+	
 }
 
 iframe {
-	top: 2655px;
-left: 250px;
-width: 463px;
-height: 197px;
-border-radius: 15px;
+height: 100%;
+width: 100%;
 
 }
 
-.p77, .p78 { width: top: 2944px;
+.p77, .p78 { display: inline;
+width: top: 2944px;
 left: 262px;
 width: 26px;
 height: 26px;
 ; }
+.phone, .mail { display: inline;
+	color: white;
+	font-size: 15px;
+	font-family: Helvetica Neues;
+	padding-right: 30px;
+	text-align: center;
+}
+ 
+ .mobile, .email { display: inline;
+ 	border-radius: 15px;
+ 	color: white;
 
+ }
+
+h6 { display: inline;
+	color: white;
+
+}
+
+.map {width:400px;
+	height:200px ;
+	border-radius: 30px;
+	overflow: hidden;
+
+}
